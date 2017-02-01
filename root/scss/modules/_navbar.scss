@@ -1,0 +1,41 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+
+  background-color: #263238;
+
+  font-family: $font2;
+
+  z-index: 100;
+}
+
+.navbar__title{
+  float: left;
+
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: bold;
+  color: #B0BEC5;
+}
+
+.navbar__menu{ float: right; }
+
+.navbar__menu__li{
+  float: left;
+  margin-left: 20px;
+
+  line-height: 60px;
+
+  list-style-type: none;
+}
+
+.navbar__menu__link{
+  color: #90A4AE;
+
+  transition: color 0.3s;
+}
+
+.navbar__menu__link:hover{  color: #B0BEC5;  }

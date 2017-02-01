@@ -1,0 +1,12 @@
+{
+  "title": "No Border Craft",
+  "debug": true,
+  "database":{
+    "database_host": "127.0.0.1",
+    "database_name": "nbc",
+    "database_user": "root",
+    "database_pass": "",
+    "database_utf-8": true,
+    "database_initialize": true
+  }
+}

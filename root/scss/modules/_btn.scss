@@ -1,0 +1,45 @@
+.btn{
+  padding: 10px 25px;
+  display: block;
+  float: left;
+
+  border-bottom: 3px solid $base-color2;
+  border-radius: 2px;
+
+  background: $base-color;
+
+  font-family: $font2;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: $light-color;
+}
+
+.btn-primary{
+  border-color: $primary-color2;
+  background-color: $primary-color;
+}
+
+.btn-success{
+  border-color: $success-color2;
+  background-color: $success-color;
+}
+
+.btn-danger{
+  border-color: $danger-color2;
+  background-color: $danger-color;
+}
+
+.btn-info{
+  border-color: $info-color2;
+  background-color: $info-color;
+}
+
+.btn-warning{
+  border-color: $warning-color2;
+  background-color: $warning-color;
+}
+
+.btn-poke{
+  border-color: $poke-color2;
+  background-color: $poke-color;
+}

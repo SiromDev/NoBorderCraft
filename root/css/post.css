@@ -1,0 +1,36 @@
+.post{
+    display: block;
+    position: relative;
+    top: 20px;
+    background-color: #fff;
+    border: 3px solid #eceff1;
+}
+
+.post p{
+    padding: 40px;
+}
+
+.post ul{
+    padding-left: 20px;
+}
+
+.post ul li{
+    list-style-type: circle;
+    margin-left: 40px;
+}
+
+.post ol{
+    padding-left: 20px;
+}
+
+.post ol li{
+    list-style-type: upper-roman;
+    margin-left: 40px;
+}
+
+.post h1 {  font-size: 18px;  }
+.post h2{  font-size: 16px;  }
+.post h3{  font-size: 14px;  }
+.post h4{  font-size: 12px;  }
+.post h5{  font-size: 10px;  }
+.post h6{  font-size: 8px;  }

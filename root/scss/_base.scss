@@ -1,0 +1,18 @@
+*{ box-sizing: border-box; }
+
+html, body{
+  background-color: $light-color;
+
+  font-family: $font2;
+  line-height: 1.5em;
+  color: $base-color;
+
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: $primary-color;
+}
+
+img{ width: 100%; }
