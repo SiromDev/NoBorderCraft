@@ -54,7 +54,7 @@ class PostController extends Controller {
      */
     public function isPostContains(){
         if (!$this->model->getPost()){
-            header('Location: /nbc');
+            header('Location: ');
             return false;
         }
         return true;

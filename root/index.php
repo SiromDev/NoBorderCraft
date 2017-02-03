@@ -3,7 +3,10 @@ use App\App;
 use App\Autoloader;
 use App\Router\Router;
 
-require '../app/Autoloader.php';
+define('DS', DIRECTORY_SEPARATOR); # Meilleur portabilité sur les différents systeme.
+define('ROOT', dirname(dirname(__FILE__)).DS); # Pour se simplifier la vie
+
+require ROOT . 'app/Autoloader.php';
 Autoloader::register();
 App::initialize();
 
@@ -43,9 +46,9 @@ $p = $p[0];
 
 switch ($p){
     case 'admin':
-        require '../views/templates/admin.php';
+        require ROOT . 'views/templates/admin.php';
         break;
     default:
-        require '../views/templates/default.php';
+        require ROOT . 'views/templates/default.php';
         break;
 }

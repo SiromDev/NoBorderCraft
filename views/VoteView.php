@@ -27,7 +27,7 @@
         <a target="_blank" class="btn" style="margin-right: 10px;" href="http://serveurs-minecraft.com/serveur-minecraft.php?Classement=No%20Border%20Craft">Vote 2</a>
         <a target="_blank" class="btn" style="margin-right: 10px;" href="http://www.serveursminecraft.org/serveur.php?id=1221">Vote 3</a>
         <br><br>
-        <a class="btn btn-success" style="margin-top: 10px; margin-bottom: 20px; display: block; width: 100%;" href="/nbc/vote/validate">Récuperer</a>
+        <a class="btn btn-success" style="margin-top: 10px; margin-bottom: 20px; display: block; width: 100%;" href="/vote/validate">Récuperer</a>
         <br>
     <?php else: ?>
         <form action="" method="post">

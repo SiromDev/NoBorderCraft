@@ -30,7 +30,7 @@ class VotePostModel extends Model {
      * Permet de retourner a la page de vote
      */
     public function callback(){
-        header('Location: /nbc/vote');
+        header('Location: /vote');
         exit();
     }
 

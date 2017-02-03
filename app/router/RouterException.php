@@ -14,7 +14,7 @@ class RouterException extends \Exception{
      * Pérmet de rediriger ver lerreur 404
      */
     static function notFound(){
-        header('Location: /nbc/404');
+        header('Location: /404');
         exit();
     }
 

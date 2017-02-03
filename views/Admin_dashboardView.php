@@ -16,7 +16,7 @@
                 </div>
                 <div class="footer">
                     <hr>
-                    <a href="/nbc/admin/dashboard">
+                    <a href="/admin/dashboard">
                         <i class="fa fa-history"></i> Update la page pour actualiser
                     </a>
                 </div>
@@ -137,7 +137,7 @@
                 <div class="footer">
                     <hr>
                     <div class="stats">
-                        <a href="/nbc/admin/dashboard">
+                        <a href="/admin/dashboard">
                             <i class="fa fa-history"></i> Update la page pour actualiser
                         </a>
                     </div>

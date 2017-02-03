@@ -32,11 +32,11 @@ class LoginPostController extends Controller {
         switch ($this->model->isValide()){
             case true:
                 $_SESSION['auth'] = $this->model->getUser();
-                header('Location: /nbc/admin/dashboard');
+                header('Location: /admin/dashboard');
                 exit();
                 break;
             default:
-                header('Location: /nbc/login');
+                header('Location: /login');
                 exit();
                 break;
         }

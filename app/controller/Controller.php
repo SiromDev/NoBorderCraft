@@ -24,7 +24,7 @@ class Controller{
     public function load($class, $datas = []){
         $url = explode("\\", $class);
         $url = str_replace('Controller', 'View', $url[2]);
-        $url = "../views/{$url}.php";
+        $url = ROOT . "views/{$url}.php";
         require $url;
     }
 

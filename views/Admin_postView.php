@@ -2,7 +2,7 @@
     <div class="header">
         <h4 class="title">Tout les articles</h4>
         <p class="category">
-            <a href="/nbc/admin/post/write" class="btn btn-fill btn-success btn-block">Ajouter un article</a>
+            <a href="/admin/post/write" class="btn btn-fill btn-success btn-block">Ajouter un article</a>
         </p>
     </div>
     <div class="content table-responsive table-full-width">
@@ -18,8 +18,8 @@
             <tr>
                 <td><?= $post->id; ?></td>
                 <td><?= $post->title; ?></td>
-                <td><a href="/nbc/post/<?= \App\App::toSlug($post->title) . '-' . $post->id; ?>" class="btn btn-success">View</a></td>
-                <td><a href="/nbc/admin/post/delete/<?= $post->id; ?>" class="btn btn-warning">Delete</a></td>
+                <td><a href="/post/<?= \App\App::toSlug($post->title) . '-' . $post->id; ?>" class="btn btn-success">View</a></td>
+                <td><a href="/admin/post/delete/<?= $post->id; ?>" class="btn btn-warning">Delete</a></td>
             </tr>
             <?php endforeach; ?>
             </tbody>
