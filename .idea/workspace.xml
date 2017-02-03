@@ -2,64 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d747a68-8474-4a2d-9394-3a5c96cb5db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/ba15b37f-2ac3-4ee6-b0fa-c4c4dd9c7be1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Autoloader.php" afterPath="$PROJECT_DIR$/app/Autoloader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/css/admin/pe-icon-7-stroke.css" afterPath="$PROJECT_DIR$/root/css/admin/pe-icon-7-stroke.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/index.php" afterPath="$PROJECT_DIR$/root/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Admin_dashboardView.php" afterPath="$PROJECT_DIR$/views/Admin_dashboardView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Admin_postView.php" afterPath="$PROJECT_DIR$/views/Admin_postView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/NfView.php" afterPath="$PROJECT_DIR$/views/NfView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/PostView.php" afterPath="$PROJECT_DIR$/views/PostView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/RootView.php" afterPath="$PROJECT_DIR$/views/RootView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/VoteView.php" afterPath="$PROJECT_DIR$/views/VoteView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/templates/admin.php" afterPath="$PROJECT_DIR$/views/templates/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/templates/default.php" afterPath="$PROJECT_DIR$/views/templates/default.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/Admin_dashboardController.php" afterPath="$PROJECT_DIR$/app/controller/Admin_dashboardController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/Admin_postController.php" afterPath="$PROJECT_DIR$/app/controller/Admin_postController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/Admin_post_writeController.php" afterPath="$PROJECT_DIR$/app/controller/Admin_post_writeController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/Admin_post_writePostController.php" afterPath="$PROJECT_DIR$/app/controller/Admin_post_writePostController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/Controller.php" afterPath="$PROJECT_DIR$/app/controller/Controller.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/LoginController.php" afterPath="$PROJECT_DIR$/app/controller/LoginController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/LoginPostController.php" afterPath="$PROJECT_DIR$/app/controller/LoginPostController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/LogoutController.php" afterPath="$PROJECT_DIR$/app/controller/LogoutController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/NfController.php" afterPath="$PROJECT_DIR$/app/controller/NfController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/PostController.php" afterPath="$PROJECT_DIR$/app/controller/PostController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/RootController.php" afterPath="$PROJECT_DIR$/app/controller/RootController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/ShareController.php" afterPath="$PROJECT_DIR$/app/controller/ShareController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/VoteController.php" afterPath="$PROJECT_DIR$/app/controller/VoteController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/VotePostController.php" afterPath="$PROJECT_DIR$/app/controller/VotePostController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/Vote_validateController.php" afterPath="$PROJECT_DIR$/app/controller/Vote_validateController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Controller/admin_post_deleteController.php" afterPath="$PROJECT_DIR$/app/controller/Admin_post_deleteController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Michelf/Markdown.inc.php" afterPath="$PROJECT_DIR$/app/michelf/Markdown.inc.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Michelf/Markdown.php" afterPath="$PROJECT_DIR$/app/michelf/Markdown.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Michelf/MarkdownExtra.inc.php" afterPath="$PROJECT_DIR$/app/michelf/MarkdownExtra.inc.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Michelf/MarkdownExtra.php" afterPath="$PROJECT_DIR$/app/michelf/MarkdownExtra.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Michelf/MarkdownInterface.inc.php" afterPath="$PROJECT_DIR$/app/michelf/MarkdownInterface.inc.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Michelf/MarkdownInterface.php" afterPath="$PROJECT_DIR$/app/michelf/MarkdownInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/Admin_dashboardModel.php" afterPath="$PROJECT_DIR$/app/model/Admin_dashboardModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/Admin_postModel.php" afterPath="$PROJECT_DIR$/app/model/Admin_postModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/Admin_post_deleteModel.php" afterPath="$PROJECT_DIR$/app/model/Admin_post_deleteModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/Admin_post_writeModel.php" afterPath="$PROJECT_DIR$/app/model/Admin_post_writeModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/Admin_post_writePostModel.php" afterPath="$PROJECT_DIR$/app/model/Admin_post_writePostModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/LoginModel.php" afterPath="$PROJECT_DIR$/app/model/LoginModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/LoginPostModel.php" afterPath="$PROJECT_DIR$/app/model/LoginPostModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/LogoutModel.php" afterPath="$PROJECT_DIR$/app/model/LogoutModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/Model.php" afterPath="$PROJECT_DIR$/app/model/Model.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/NfModel.php" afterPath="$PROJECT_DIR$/app/model/NfModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/PostModel.php" afterPath="$PROJECT_DIR$/app/model/PostModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/RootModel.php" afterPath="$PROJECT_DIR$/app/model/RootModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/ShareModel.php" afterPath="$PROJECT_DIR$/app/model/ShareModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/VoteModel.php" afterPath="$PROJECT_DIR$/app/model/VoteModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/VotePostModel.php" afterPath="$PROJECT_DIR$/app/model/VotePostModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Model/Vote_validateModel.php" afterPath="$PROJECT_DIR$/app/model/Vote_validateModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Router/Route.php" afterPath="$PROJECT_DIR$/app/router/Route.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Router/Router.php" afterPath="$PROJECT_DIR$/app/router/Router.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Router/RouterException.php" afterPath="$PROJECT_DIR$/app/router/RouterException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Admin_post_deleteController.php" afterPath="$PROJECT_DIR$/app/controller/Admin_post_deleteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Admin_post_writePostController.php" afterPath="$PROJECT_DIR$/app/controller/Admin_post_writePostController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Admin_post_writePostModel.php" afterPath="$PROJECT_DIR$/app/model/Admin_post_writePostModel.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,12 +42,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogoutController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LogoutController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/LogoutController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="260">
+              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="208">
+                <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -155,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Controller/Admin_post_writePostController.php" />
         <option value="$PROJECT_DIR$/app/Model/Admin_post_writePostModel.php" />
         <option value="$PROJECT_DIR$/app/Controller/VoteController.php" />
         <option value="$PROJECT_DIR$/app/Model/VoteModel.php" />
@@ -206,6 +163,7 @@
         <option value="$PROJECT_DIR$/app/controller/LoginPostController.php" />
         <option value="$PROJECT_DIR$/views/RootView.php" />
         <option value="$PROJECT_DIR$/app/controller/LogoutController.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -333,60 +291,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="router" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -836,12 +740,12 @@
       <workItem from="1485978333805" duration="1057000" />
       <workItem from="1486040723432" duration="1198000" />
       <workItem from="1486083558296" duration="3413000" />
-      <workItem from="1486087083316" duration="2777000" />
+      <workItem from="1486087083316" duration="3336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152659000" />
+    <option name="totallyTimeSpent" value="153218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -906,13 +810,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controller/Admin_dashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/root/css/slideshow.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -1239,9 +1136,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/LogoutController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="260">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="208">
+            <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -30,7 +30,7 @@ class Admin_post_writePostController extends Controller {
         if ($this->model->isValide()){
             $this->model->send();
         }else{
-            header('Location: /nbc/admin/post/write');
+            header('Location: /admin/post/write');
             exit();
         }
     }

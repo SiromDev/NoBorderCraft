@@ -35,7 +35,7 @@ class Admin_post_writePostModel extends Model {
      */
     public function send(){
         App::getDatabase()->prepare("INSERT INTO posts SET title = ?, thumb = ?, content = ?", [$_POST['title'], $_POST['thumb'], $_POST['content']]);
-        header('Location: /nbc/admin/post');
+        header('Location: /admin/post');
         exit();
     }
 

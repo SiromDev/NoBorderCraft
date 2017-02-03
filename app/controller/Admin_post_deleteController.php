@@ -30,7 +30,7 @@ class admin_post_deleteController extends Controller {
         switch ($this->model->isAuth()){
             case true:
                 $this->model->delete();
-                header('Location: /nbc/admin/post');
+                header('Location: /admin/post');
                 break;
             default:
                 RouterException::notFound();
