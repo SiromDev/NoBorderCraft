@@ -37,9 +37,9 @@ class Vote_validateController extends Controller {
      * Fonction pour voir si on a voter est socuper des requéte
      */
     public function validateAll(){
-        if($this->model->isValidateLink(1, '176.189.45.84')) $this->model->addVote(1);
-        if($this->model->isValidateLink(2, '176.189.45.84')) $this->model->addVote(2);
-        if($this->model->isValidateLink(3, '176.189.45.84')) $this->model->addVote(3);
+        if($this->model->isValidateLink(1, $this->ip)) $this->model->addVote(1);
+        if($this->model->isValidateLink(2, $this->ip)) $this->model->addVote(2);
+        if($this->model->isValidateLink(3, $this->ip)) $this->model->addVote(3);
         header('Location: /vote');
     }
 
