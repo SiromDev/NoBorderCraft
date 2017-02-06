@@ -37,8 +37,8 @@ class Admin_dashboardController extends Controller {
             case true:
                 $this->serverApi = new MinecraftAPI("nobordercraft.fr", 25565);
                 $this->load(self::class, [
-                    'api' => $this->serverApi]
-                );
+                    'api' => $this->serverApi
+                ]);
                 break;
             default:
                 RouterException::notFound();

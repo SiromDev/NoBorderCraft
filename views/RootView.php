@@ -27,7 +27,7 @@ use App\App;
                         <img class="posts__thumb" src="/root/img/thumb/<?= $post->thumb; ?>" alt="">
                         <a class="btn btn-warning posts__title" href="/post/<?= App::toSlug($post->title); ?>-<?= $post->id; ?>"><h2><?= $post->title; ?></h2></a>
                         <p class="post__content">
-                            <?= substr($post->description, 0, 230); ?>
+                            <?= substr($post->content, 0, 230); ?>
                         </p>
                         <a class="btn btn-success" href="/post/<?= App::toSlug($post->title); ?>-<?= $post->id; ?>">
                             Lire plus
@@ -42,7 +42,7 @@ use App\App;
                 <span class="btn btn-warning" style="display: block; width: 100%; margin-bottom: 10px; font-weight: bold">Best vote</span>
                 <ul>
                     <?php foreach ($datas['best-votes'] as $vote): ?>
-                    <li><span class="text-warning"><strong><?= $vote->number; ?> votes</strong> /</span> <?= $vote->pseudo; ?></li>
+                    <li><span class="text-warning"><strong><?= $vote->votes; ?> votes</strong> /</span> <?= $vote->pseudo; ?></li>
                     <?php endforeach; ?>
                 </ul>
             </div>

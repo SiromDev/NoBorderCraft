@@ -45,7 +45,7 @@ class RootModel extends Model {
      * @return \PDOStatement getter des meilleur vote
      */
     public function getBestVotes($limit){
-        if ($this->votes == null) $this->votes = App::getDatabase()->query("SELECT * FROM votes ORDER BY number DESC LIMIT " . $limit, false);
+        if ($this->votes == null) $this->votes = App::getDatabase()->query("SELECT * FROM players ORDER BY votes DESC LIMIT " . $limit, false);
         return $this->votes;
     }
 

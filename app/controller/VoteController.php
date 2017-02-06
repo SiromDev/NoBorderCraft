@@ -27,7 +27,8 @@ class VoteController extends Controller {
         $this->init();
         $this->load(self::class, [
             "logged" => $this->model->isLogged(),
-            "votes" => $this->model->getBestVotes()
+            "votes" => $this->model->getBestVotes(),
+            "is_voted" => $this->model->isVotedAll()
         ]);
     }
 

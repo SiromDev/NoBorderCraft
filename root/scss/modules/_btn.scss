@@ -1,7 +1,9 @@
 .btn{
+  width: 100%;
   padding: 10px 25px;
+  margin-bottom: 20px;
   display: block;
-  float: left;
+  float: none;
 
   border-bottom: 3px solid $base-color2;
   border-radius: 2px;
@@ -12,6 +14,17 @@
   text-transform: uppercase;
   font-weight: lighter;
   color: $light-color;
+
+  cursor: pointer;
+}
+
+.btn-empty{
+  background: transparent;
+  border: 2px solid #263238;
+
+
+  font-weight: bold;
+  color: #263238;
 }
 
 .btn-primary{
