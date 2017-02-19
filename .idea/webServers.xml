@@ -10,6 +10,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="7ffb33e8-c645-4aa6-bcf9-ca14b5b636f6" name="NoBorderCraft" url="http://51.255.173.242">
+        <fileTransfer host="51.255.173.242" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

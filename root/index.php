@@ -19,6 +19,7 @@ $router->get('/', 'Root#show');
 $router->get('404', 'Nf#show');
 $router->get('post/:slug-:id', 'Post#show');
 $router->get('share/:type/:id', 'Share#show');
+$router->get('posts', 'Postsf#show');
 
 # Vote
 $router->get('vote', 'Vote#show');

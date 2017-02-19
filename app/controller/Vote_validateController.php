@@ -41,6 +41,7 @@ class Vote_validateController extends Controller {
         if($this->model->isValidateLink(2, $this->ip)) $this->model->addVote(2);
         if($this->model->isValidateLink(3, $this->ip)) $this->model->addVote(3);
         header('Location: /vote');
+        exit();
     }
 
     /**

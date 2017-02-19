@@ -41,15 +41,15 @@ class Database{
 
             if ($this->db_config['database_utf-8']){
                 $this->pdo = new PDO(
-                    'mysql:host=' . $this->db_config['database_host'] . ';dbname=' . $this->db_config['database_name'] . ';charset=utf8',
-                    $this->db_config['database_user'],
-                    $this->db_config['database_pass']
+                    'mysql:host=188.165.248.215;dbname=NBC;charset=utf8',
+                    'root',
+                    'cp8N6HV4q6'
                 );
             }else{
                 $this->pdo = new PDO(
-                    'mysql:host=' . $this->db_config['database_host'] . ';dbname=' . $this->db_config['database_name'],
-                    $this->db_config['database_user'],
-                    $this->db_config['database_pass']
+                    'mysql:host=188.165.248.215;dbname=NBC',
+                    'root',
+                    'cp8N6HV4q6'
                 );
             }
 

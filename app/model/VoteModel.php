@@ -43,10 +43,8 @@ class VoteModel extends Model {
      * @return bool Si lutilisateur a voter par tout
      */
     public function isVotedAll(){
-        $isVoted = true;
-        if ($this->isAlradyVoted(1)) $isVoted = false;
-        if ($this->isAlradyVoted(2)) $isVoted = false;
-        if ($this->isAlradyVoted(3)) $isVoted = false;
+        $isVoted = false;
+        if ($this->isAlradyVoted(1) && $this->isAlradyVoted(2) && $this->isAlradyVoted(3)) $isVoted = true;
         return $isVoted;
     }
 
@@ -55,7 +53,7 @@ class VoteModel extends Model {
      * @return bool Si lutilisateur a voter
      */
     public function isAlradyVoted($linkN){
-        return isset($_SESSION['votted'][$linkN]);
+        return isset($_SESSION['votted']["votted_{$linkN}"]);
     }
 
 }

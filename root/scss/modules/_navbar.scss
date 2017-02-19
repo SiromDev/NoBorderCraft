@@ -5,7 +5,7 @@
   right: 0;
   height: 60px;
 
-  background-color: #263238;
+  background-color: $bar-color;
 
   font-family: $font2;
 
@@ -18,7 +18,7 @@
   font-size: 18px;
   line-height: 60px;
   font-weight: bold;
-  color: #B0BEC5;
+  color: $primary-color;
 }
 
 .navbar__menu{ float: right; }

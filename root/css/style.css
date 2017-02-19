@@ -14,7 +14,6 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-
   margin: 0;
   padding: 0;
   border: 0;
@@ -58,7 +57,7 @@ html, body {
 
 a {
   text-decoration: none;
-  color: #55aded; }
+  color: #1DA67A; }
 
 img {
   width: 100%; }
@@ -730,7 +729,7 @@ img {
 
 .btn-primary {
   border-color: #318dce;
-  background-color: #55aded; }
+  background-color: #1DA67A; }
 
 .btn-success {
   border-color: #0aad52;
@@ -779,7 +778,7 @@ img {
   left: 0;
   right: 0;
   height: 60px;
-  background-color: #263238;
+  background-color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   z-index: 100; }
 
@@ -788,7 +787,7 @@ img {
   font-size: 18px;
   line-height: 60px;
   font-weight: bold;
-  color: #B0BEC5; }
+  color: #1DA67A; }
 
 .navbar__menu {
   float: right; }
@@ -909,7 +908,7 @@ img {
     width: 100%;
     margin-bottom: 10px;
     font-size: 19px;
-    color: #55aded;
+    color: #1DA67A;
     font-weight: bold;
     border-bottom: 1px solid #607d8b; }
 

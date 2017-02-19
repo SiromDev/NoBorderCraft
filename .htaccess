@@ -1,4 +1,10 @@
 RewriteEngine on
 
+# Protect config.json
+<Files ./config.json>
+Order Allow,Deny
+Deny from all
+</Files>
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ root/index.php?url=$1 [QSA,L]

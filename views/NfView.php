@@ -15,7 +15,7 @@
                         Ou clic sur ce boutton:
                     </b>
                 </p>
-                <a href="" class="btn btn-large btn-info"><i class="icon-home icon-white"></i> Aller a l'acceuil</a>
+                <a href="/" class="btn btn-large btn-info"><i class="icon-home icon-white"></i> Aller a l'acceuil</a>
             </div>
         </div>
     </div>

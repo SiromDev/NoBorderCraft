@@ -5,9 +5,9 @@ use App\App;
     <div class="container">
         <div class="slideshow__slogant">
             <p>
-                Voter pour <?= App::getTitle(); ?>, Server (FreeBuild, SkyBlock, Créatif)
+                Votez pour <?= App::getTitle(); ?> et gagner
                 <br>
-                est gagnier de récompence.
+                des récompenses sur nos serveurs !
             </p>
             <a href="/vote" class="btn btn-info slideshow__btn">Voter</a>
         </div>
@@ -39,7 +39,7 @@ use App\App;
 
         <div class="col-xs-3">
             <div class="best-vote">
-                <span class="btn btn-warning" style="display: block; width: 100%; margin-bottom: 10px; font-weight: bold">Best vote</span>
+                <span class="btn btn-warning" style="display: block; width: 100%; margin-bottom: 10px; font-weight: bold">Meilleurs voteurs</span>
                 <ul>
                     <?php foreach ($datas['best-votes'] as $vote): ?>
                     <li><span class="text-warning"><strong><?= $vote->votes; ?> votes</strong> /</span> <?= $vote->pseudo; ?></li>

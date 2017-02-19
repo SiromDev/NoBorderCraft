@@ -1,4 +1,5 @@
 <div class="container">
+
     <br>
 
     <?php if ($datas['logged']): ?>
@@ -6,24 +7,25 @@
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box__content">
-                        <?php if ($datas['is_voted']): ?>
+                        <?php if (!$datas['is_voted']): ?>
                             <p>
-                                Voter permét de gagnier des clef en jeux vous pourai désormai les récuperer en votant et clicker sur <span class="text-bold">Récuperer</span>
+                                Voter permet de gagner des clés en jeu, pour les récupérer il suffit de cliquer sur  <span class="text-bold">récupérer</span> !
                                 <br>
-                                Une foit avoir récuperer votre récompence aller sur Minecraft est faite <span class="text-bold">/vote</span> est vous aurez accée a vos 3 clef de vote
+                                Une fois que vous aurez récupérer connectez-vous et faites <span class="text-bold">/vote</span> afin de gagner une récompense sur l'un des serveurs !
                                 <br>
                                 <span class="text-bold text-warning">Vous pouvez voter tout les 24h</span>
                             </p>
 
                             <br>
 
+
                             <a target="_blank" class="btn" href="http://www.serveurs-minecraft.org/vote.php?id=41778">Vote 1</a>
                             <a target="_blank" class="btn" href="http://serveurs-minecraft.com/serveur-minecraft.php?Classement=No%20Border%20Craft">Vote 2</a>
+                            <label for="#" class="text-bold text-danger">Lien 3 en maintenance ! <span class="text-success">Mais vous pouvez quand méme votter :p</span> </label>
                             <a target="_blank" class="btn" href="http://www.serveursminecraft.org/serveur.php?id=1221">Vote 3</a>
-                            <label for="btn-req" class="text-bold text-warning">Delay de 20 min pour récuperer votre récompence!</label>
                             <a class="btn btn-success btn-empty" id="btn-req" href="/vote/validate">Récuperer</a>
                         <?php else: ?>
-                            <a class="btn btn-poke" href="/">Vous avez déja voter sur tout les lien :P</a>
+                            <a class="btn btn-poke" href="/">Vous avez déjà voté sur tout les liens, merci ! :P</a>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -34,7 +36,7 @@
             <div class="col-xs-12">
                 <form class="form" action="" method="post">
                     <div class="form-group">
-                        <label for="pseudo" class="form-label">Pseudo in game</label>
+                        <label for="pseudo" class="form-label">Pseudo Minecraft</label>
                         <input class="form-control" type="text" id="pseudo" name="pseudo">
                     </div>
                     <button type="submit" class="btn btn-success">Voter</button>
@@ -47,7 +49,7 @@
         <div class="col-xs-12">
             <div class="box">
                 <div class="box__content">
-                    <span class="box__title">Best vote</span>
+                    <span class="box__title">Meilleurs voteurs</span>
                     <ul>
                         <?php $i = 0; ?>
                         <?php foreach ($datas['votes'] as $vote): $i++; ?>

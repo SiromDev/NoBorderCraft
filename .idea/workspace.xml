@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d747a68-8474-4a2d-9394-3a5c96cb5db1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/.sass-cache/521aaf20f1ae8d58fff88c54767634b7fc7fe16d/_navbar.scssc" afterPath="$PROJECT_DIR$/root/.sass-cache/521aaf20f1ae8d58fff88c54767634b7fc7fe16d/_navbar.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/.sass-cache/6847b0cbe73505e81af05463cb44f5a24c1aa26b/_site-settings.scssc" afterPath="$PROJECT_DIR$/root/.sass-cache/6847b0cbe73505e81af05463cb44f5a24c1aa26b/_site-settings.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Database.php" afterPath="$PROJECT_DIR$/app/Database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Vote_validateController.php" afterPath="$PROJECT_DIR$/app/controller/Vote_validateController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/VoteModel.php" afterPath="$PROJECT_DIR$/app/model/VoteModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Vote_validateModel.php" afterPath="$PROJECT_DIR$/app/model/Vote_validateModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/css/style.css" afterPath="$PROJECT_DIR$/root/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/css/style.css.map" afterPath="$PROJECT_DIR$/root/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/index.php" afterPath="$PROJECT_DIR$/root/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/scss/_site-settings.scss" afterPath="$PROJECT_DIR$/root/scss/_site-settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/scss/modules/_navbar.scss" afterPath="$PROJECT_DIR$/root/scss/modules/_navbar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/NfView.php" afterPath="$PROJECT_DIR$/views/NfView.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/RootView.php" afterPath="$PROJECT_DIR$/views/RootView.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/VoteView.php" afterPath="$PROJECT_DIR$/views/VoteView.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/templates/default.php" afterPath="$PROJECT_DIR$/views/templates/default.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,14 +44,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="nbc" />
+    <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Vote_validateController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controller/Vote_validateController.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/root/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            <state relative-caret-position="264">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/root/scss/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -50,6 +79,7 @@
       <find>col-</find>
       <find>/nbc</find>
       <find>.btn</find>
+      <find>var</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -66,11 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.haml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ba15b37f-2ac3-4ee6-b0fa-c4c4dd9c7be1/console.sql" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.590/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/root/css/post.css" />
-        <option value="$PROJECT_DIR$/root/scss/layout/_grid.scss" />
         <option value="$PROJECT_DIR$/root/scss/_base.scss" />
         <option value="$PROJECT_DIR$/root/scss/modules/_posts.scss" />
         <option value="$PROJECT_DIR$/root/scss/modules/_slideshow.scss" />
@@ -79,21 +104,16 @@
         <option value="$PROJECT_DIR$/app/Michelf/Markdown.php" />
         <option value="$PROJECT_DIR$/app/Model/RootModel.php" />
         <option value="$PROJECT_DIR$/root/scss/modules/_text.scss" />
-        <option value="$PROJECT_DIR$/views/NfView.php" />
         <option value="$PROJECT_DIR$/app/Controller/RootController.php" />
         <option value="$PROJECT_DIR$/app/Controller/Vote_validate.php" />
         <option value="$PROJECT_DIR$/app/Controller/Vote_validateController.php" />
         <option value="$PROJECT_DIR$/app/Model/Vote_validateModel.php" />
         <option value="C:/Windows/System32/drivers/etc/hosts" />
         <option value="$USER_HOME$/Desktop/hosts" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/App/Autoloader.php" />
-        <option value="$PROJECT_DIR$/root/index.php" />
         <option value="$PROJECT_DIR$/app/controller/Controller.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c5f3e573-fc5c-46a6-af36-9390f031ce61/console.sql" />
         <option value="$PROJECT_DIR$/app/router/RouterException.php" />
-        <option value="$PROJECT_DIR$/views/templates/default.php" />
         <option value="$PROJECT_DIR$/app/model/VotePostModel.php" />
         <option value="$PROJECT_DIR$/app/controller/Admin_post_writePostController.php" />
         <option value="$PROJECT_DIR$/app/controller/LoginPostController.php" />
@@ -105,18 +125,28 @@
         <option value="$PROJECT_DIR$/app/Autoloader.php" />
         <option value="$PROJECT_DIR$/app/controller/Admin_dashboardController.php" />
         <option value="$PROJECT_DIR$/views/PostView.php" />
-        <option value="$PROJECT_DIR$/root/scss/style.scss" />
         <option value="$PROJECT_DIR$/root/scss/modules/_form.scss" />
         <option value="$PROJECT_DIR$/root/scss/modules/_btn.scss" />
         <option value="$PROJECT_DIR$/root/scss/modules/_box.scss" />
         <option value="$PROJECT_DIR$/root/scss/layout/_container.scss" />
-        <option value="$PROJECT_DIR$/root/css/style.css" />
-        <option value="$PROJECT_DIR$/app/model/Vote_validateModel.php" />
         <option value="$PROJECT_DIR$/app/controller/VoteController.php" />
+        <option value="$PROJECT_DIR$/views/RootView.php" />
+        <option value="$PROJECT_DIR$/views/NfView.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/views/templates/default.php" />
+        <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/app/Session.php" />
+        <option value="$PROJECT_DIR$/app/controller/Vote_validateController.php" />
+        <option value="$PROJECT_DIR$/app/model/Vote_validateModel.php" />
         <option value="$PROJECT_DIR$/app/model/VoteModel.php" />
         <option value="$PROJECT_DIR$/views/VoteView.php" />
-        <option value="$PROJECT_DIR$/views/RootView.php" />
-        <option value="$PROJECT_DIR$/app/controller/Vote_validateController.php" />
+        <option value="$PROJECT_DIR$/app/Database.php" />
+        <option value="$PROJECT_DIR$/root/scss/_site-settings.scss" />
+        <option value="$PROJECT_DIR$/root/css/style.css" />
+        <option value="$PROJECT_DIR$/root/scss/modules/_navbar.scss" />
+        <option value="$PROJECT_DIR$/app/controller/PostsController.php" />
+        <option value="$PROJECT_DIR$/root/index.php" />
+        <option value="$PROJECT_DIR$/root/scss/style.scss" />
       </list>
     </option>
   </component>
@@ -131,8 +161,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1352" />
-    <option name="y" value="-63" />
+    <option name="x" value="-8" />
+    <option name="y" value="22" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -215,8 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -240,7 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="root" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,11 +282,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="root" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,6 +346,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,8 +355,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="SearchEverywhereHistoryKey" value="Root&#9;FILE&#9;file://Z:/labs/nbc/views/RootView.php&#10;RootVie&#9;FILE&#9;file://Z:/labs/nbc/views/RootView.php&#10;VoteVie&#9;FILE&#9;file://Z:/labs/nbc/views/VoteView.php&#10;PostVie&#9;FILE&#9;file://Z:/labs/nbc/views/PostView.php&#10;VoteC&#9;null&#9;null&#10;Vote&#9;FILE&#9;file://Z:/labs/nbc/app/model/VotePostModel.php&#10;Vote_valida&#9;null&#9;null&#10;vote_c&#9;FILE&#9;file://Z:/labs/nbc/app/controller/Vote_validateController.php&#10;Vote_va&#9;FILE&#9;file://Z:/labs/nbc/app/model/Vote_validateModel.php&#10;loginVie&#9;FILE&#9;file://Z:/labs/nbc/views/LoginView.php&#10;VoteView&#9;FILE&#9;file://Z:/labs/nbc/views/VoteView.php&#10;inde&#9;FILE&#9;file://Z:/labs/nbc/root/index.php&#10;Vote_&#9;null&#9;null&#10;/nbc&#9;FILE&#9;file://Z:/labs/nbc&#10;postVi&#9;FILE&#9;file://Z:/labs/nbc/views/PostView.php&#10;defa&#9;FILE&#9;file://Z:/labs/nbc/views/templates/default.php&#10;VoteV&#9;FILE&#9;file://C:/wamp64/www/nbc/views/VoteView.php&#10;index&#9;FILE&#9;file://C:/wamp64/www/nbc/root/index.php&#10;_posts&#9;FILE&#9;file://C:/wamp64/www/nbc/root/scss/modules/_posts.scss&#10;root&#9;FILE&#9;file://C:/wamp64/www/nbc/views/RootView.php&#10;style&#9;FILE&#9;file://C:/wamp64/www/nbc/root/scss/style.scss&#10;default&#9;FILE&#9;file://C:/wamp64/www/nbc/views/templates/default.php&#10;_&#9;FILE&#9;file://C:/wamp64/www/nbc/root/scss/modules/_navbar.scss&#10;defau&#9;FILE&#9;file://C:/wamp64/www/nbc/views/templates/default.php&#10;container&#9;FILE&#9;file://C:/wamp64/www/nbc/root/scss/layout/_container.scss&#10;post.css&#9;FILE&#9;file://C:/wamp64/www/nbc/root/css/post.css&#10;PostV&#9;FILE&#9;file://C:/wamp64/www/nbc/views/PostView.php&#10;Admin_post&#9;FILE&#9;file://C:/wamp64/www/nbc/app/Controller/Admin_post_writePostController.php&#10;Admin&#9;FILE&#9;file://C:/wamp64/www/nbc/views/Admin_post_writeView.php&#10;admin_post&#9;FILE&#9;file://C:/wamp64/www/nbc/views/Admin_postView.php&#10;admin&#9;FILE&#9;file://C:/wamp64/www/nbc/views/templates/admin.php&#10;post&#9;FILE&#9;file://C:/wamp64/www/nbc/root/css/post.css&#10;defaul&#9;FILE&#9;file://C:/wamp64/www/nbc/views/templates/default.php&#10;Database&#9;null&#9;null&#10;LoginV&#9;null&#9;null&#10;LoginMo&#9;FILE&#9;file://C:/wamp64/www/nbc/app/Model/LoginModel.php&#10;LoginCon&#9;FILE&#9;file://C:/wamp64/www/nbc/app/Controller/LoginController.php&#10;Controller&#9;FILE&#9;file://C:/wamp64/www/nbc/app/Controller/Controller.php&#10;nfview&#9;FILE&#9;file://C:/wamp64/www/nbc/views/NfView.php&#10;nfvie&#9;FILE&#9;file://C:/wamp64/www/nbc/views/NfView.php&#10;PDO&#9;null&#9;null&#10;getTitle&#9;null&#9;null&#10;Da&#9;FILE&#9;jar://C:/Users/Rémi Palisse/.IntelliJIdea2016.3/config/plugins/php/lib/php.jar!/stubs/standard/date.php" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="SearchEverywhereHistoryKey" value="contro&#9;FILE&#9;file://Z:/labs/nbc/app/controller/Vote_validateController.php&#10;style&#9;FILE&#9;file://Z:/labs/nbc/root/css/style.css&#10;VoteMod&#9;FILE&#9;file://Z:/labs/nbc/app/model/VoteModel.php&#10;VoteCon&#9;FILE&#9;file://Z:/labs/nbc/app/controller/Vote_validateController.php&#10;Vote_va&#9;FILE&#9;file://Z:/labs/nbc/app/model/Vote_validateModel.php&#10;VoteVie&#9;FILE&#9;file://Z:/labs/nbc/views/VoteView.php&#10;Vote_Va&#9;FILE&#9;file://Z:/labs/nbc/app/model/Vote_validateModel.php&#10;VoteMo&#9;FILE&#9;file://Z:/labs/nbc/app/model/VoteModel.php&#10;Vote&#9;FILE&#9;file://Z:/labs/nbc/app/controller/VoteController.php&#10;Vote_validate&#9;FILE&#9;file://Z:/labs/nbc/app/model/Vote_validateModel.php&#10;VoteV&#9;FILE&#9;file://Z:/labs/nbc/views/VoteView.php&#10;default&#9;FILE&#9;file://Z:/labs/nbc/views/templates/default.php&#10;defu&#9;null&#9;null&#10;Nf&#9;FILE&#9;file://Z:/labs/nbc/views/NfView.php&#10;Root&#9;FILE&#9;file://Z:/labs/nbc/views/RootView.php&#10;RootVie&#9;FILE&#9;file://Z:/labs/nbc/views/RootView.php&#10;PostVie&#9;FILE&#9;file://Z:/labs/nbc/views/PostView.php&#10;VoteC&#9;null&#9;null&#10;Vote_valida&#9;null&#9;null&#10;vote_c&#9;FILE&#9;file://Z:/labs/nbc/app/controller/Vote_validateController.php&#10;loginVie&#9;FILE&#9;file://Z:/labs/nbc/views/LoginView.php&#10;VoteView&#9;FILE&#9;file://Z:/labs/nbc/views/VoteView.php&#10;inde&#9;FILE&#9;file://Z:/labs/nbc/root/index.php&#10;Vote_&#9;null&#9;null&#10;/nbc&#9;FILE&#9;file://Z:/labs/nbc&#10;postVi&#9;FILE&#9;file://Z:/labs/nbc/views/PostView.php&#10;defa&#9;FILE&#9;file://Z:/labs/nbc/views/templates/default.php&#10;index&#9;FILE&#9;file://C:/wamp64/www/nbc/root/index.php&#10;_posts&#9;FILE&#9;file://C:/wamp64/www/nbc/root/scss/modules/_posts.scss&#10;root&#9;FILE&#9;file://C:/wamp64/www/nbc/views/RootView.php&#10;_&#9;FILE&#9;file://C:/wamp64/www/nbc/root/scss/modules/_navbar.scss&#10;defau&#9;FILE&#9;file://C:/wamp64/www/nbc/views/templates/default.php&#10;container&#9;FILE&#9;file://C:/wamp64/www/nbc/root/scss/layout/_container.scss&#10;post.css&#9;FILE&#9;file://C:/wamp64/www/nbc/root/css/post.css&#10;PostV&#9;FILE&#9;file://C:/wamp64/www/nbc/views/PostView.php&#10;Admin_post&#9;FILE&#9;file://C:/wamp64/www/nbc/app/Controller/Admin_post_writePostController.php&#10;Admin&#9;FILE&#9;file://C:/wamp64/www/nbc/views/Admin_post_writeView.php&#10;admin_post&#9;FILE&#9;file://C:/wamp64/www/nbc/views/Admin_postView.php&#10;admin&#9;FILE&#9;file://C:/wamp64/www/nbc/views/templates/admin.php&#10;post&#9;FILE&#9;file://C:/wamp64/www/nbc/root/css/post.css&#10;defaul&#9;FILE&#9;file://C:/wamp64/www/nbc/views/templates/default.php&#10;Database&#9;null&#9;null&#10;LoginV&#9;null&#9;null&#10;LoginMo&#9;FILE&#9;file://C:/wamp64/www/nbc/app/Model/LoginModel.php&#10;LoginCon&#9;FILE&#9;file://C:/wamp64/www/nbc/app/Controller/LoginController.php&#10;Controller&#9;FILE&#9;file://C:/wamp64/www/nbc/app/Controller/Controller.php&#10;nfview&#9;FILE&#9;file://C:/wamp64/www/nbc/views/NfView.php&#10;nfvie&#9;FILE&#9;file://C:/wamp64/www/nbc/views/NfView.php&#10;PDO&#9;null&#9;null&#10;getTitle&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
@@ -747,12 +799,28 @@
       <workItem from="1486261905858" duration="136000" />
       <workItem from="1486263040428" duration="18000" />
       <workItem from="1486319908829" duration="6999000" />
-      <workItem from="1486344077941" duration="6279000" />
+      <workItem from="1486344077941" duration="6876000" />
+      <workItem from="1486363406611" duration="2797000" />
+      <workItem from="1486405200273" duration="6107000" />
+      <workItem from="1486471271227" duration="5326000" />
+      <workItem from="1486575192473" duration="8107000" />
+      <workItem from="1486645424878" duration="622000" />
+      <workItem from="1486646668833" duration="150000" />
+      <workItem from="1486646906091" duration="3186000" />
+      <workItem from="1486762199966" duration="4593000" />
+      <workItem from="1486849764648" duration="1560000" />
+      <workItem from="1486918473902" duration="3419000" />
+      <workItem from="1487089602732" duration="341000" />
+      <workItem from="1487255187079" duration="841000" />
+      <workItem from="1487267964637" duration="599000" />
+      <workItem from="1487348247161" duration="7188000" />
+      <workItem from="1487544844719" duration="92000" />
+      <workItem from="1487544978577" duration="501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181790000" />
+    <option name="totallyTimeSpent" value="227816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,7 +832,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1352" y="-63" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -775,29 +843,30 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951483" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20066153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19189766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30540243" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24053451" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -808,7 +877,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -817,53 +886,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/adea8a1e/ba15b37f-2ac3-4ee6-b0fa-c4c4dd9c7be1/nbc.votes" />
-    <entry file="file://$PROJECT_DIR$/views/NfView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/RootController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/root/scss/modules/_posts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/root/scss/modules/_text.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Admin_dashboardModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/TestModel.php" />
     <entry file="file://C:/Windows/System32/drivers/etc/hosts" />
     <entry file="file://$USER_HOME$/Desktop/hosts" />
     <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c5f3e573-fc5c-46a6-af36-9390f031ce61/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -906,24 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/templates/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/Admin_post_writePostController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/LoginPostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -938,23 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/root/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#18#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/LogoutController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -979,30 +973,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/root/scss/_site-settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="336">
-            <caret line="14" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Autoloader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#6#30#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,26 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#46#0#PHP" expanded="false" />
-            <element signature="e#122#143#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/root/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,15 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/root/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7429">
           <caret line="326" column="16" lean-forward="true" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,9 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding>
-            <marker date="1486344638101" expanded="true" signature="46:131" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,45 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/VoteView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Vote_validateModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
-          <folding>
-            <element signature="e#100#112#0#PHP" expanded="true" />
-            <marker date="1486348614732" expanded="true" signature="3283:3325" ph="SELECT votes... players" />
-            <marker date="1486348614732" expanded="true" signature="3413:3458" ph="UPDATE playe... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/VoteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/VoteModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <marker date="1486349072241" expanded="true" signature="494:544" ph="SELECT * FRO... players" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="77" column="63" lean-forward="false" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,22 +1059,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
           <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="12" column="72" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/michelf/Markdown.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/NfView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/templates/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/VoteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="468">
+          <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/VoteView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Vote_validateModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/VoteModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root/scss/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/Vote_validateController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        <state relative-caret-position="264">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root/scss/_site-settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root/scss/modules/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/LoginPostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/LogoutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>

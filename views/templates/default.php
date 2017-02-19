@@ -18,6 +18,7 @@ use App\App;
             <ul>
                 <li class="navbar__menu__li"><a class="navbar__menu__link" href="/">Accueil</a></li>
                 <li class="navbar__menu__li"><a class="navbar__menu__link" href="/vote">Voter</a></li>
+                <li class="navbar__menu__li"><a class="navbar__menu__link" href="/forum">Forum</a></li>
             </ul>
         </div>
     </div>
