@@ -21,11 +21,11 @@
 
                             <a target="_blank" class="btn" href="http://www.serveurs-minecraft.org/vote.php?id=41778">Vote 1</a>
                             <a target="_blank" class="btn" href="http://serveurs-minecraft.com/serveur-minecraft.php?Classement=No%20Border%20Craft">Vote 2</a>
-                            <label for="#" class="text-bold text-danger">Lien 3 en maintenance ! <span class="text-success">Mais vous pouvez quand méme votter :p</span> </label>
+                            <label for="#" class="text-bold text-danger">Ce lien est instable, <span class="text-success">il est donc possible que vous ne gagniez pas votre clé !</span> </label>
                             <a target="_blank" class="btn" href="http://www.serveursminecraft.org/serveur.php?id=1221">Vote 3</a>
                             <a class="btn btn-success btn-empty" id="btn-req" href="/vote/validate">Récuperer</a>
                         <?php else: ?>
-                            <a class="btn btn-poke" href="/">Vous avez déjà voté sur tout les liens, merci ! :P</a>
+                            <a class="btn btn-poke" href="/">Vous avez déjà voté sur tous les liens, merci ! :P</a>
                         <?php endif; ?>
                     </div>
                 </div>

@@ -26,6 +26,24 @@ $router->get('vote', 'Vote#show');
 $router->post('vote', 'VotePost#show');
 $router->get('vote/validate', 'Vote_validate#show');
 
+# Shop
+$router->get('shop', 'Shop#show');
+$router->get('shop/register', 'Shop_register#show');
+$router->post('shop/register', 'Shop_register#register');
+
+$router->get('shop/success-:number', function ($number){
+?>
+    <div class="container">
+        <div class="row">
+            <br>
+            <h1>Félisitation vous venez d'acheter: <span class="text-bold"><?= $number ?></span> Iris.</h1>
+        </div>
+    </div>
+<?php
+});
+$router->get('shop/dedipass-:number', 'Shop_alopass#show');
+$router->post('shop/validate/dedipass-:number', 'Vote_validate_alopass#validate');
+
 # Login
 $router->get('login', 'Login#show');
 $router->post('login', 'LoginPost#show');

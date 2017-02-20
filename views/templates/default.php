@@ -18,6 +18,7 @@ use App\App;
             <ul>
                 <li class="navbar__menu__li"><a class="navbar__menu__link" href="/">Accueil</a></li>
                 <li class="navbar__menu__li"><a class="navbar__menu__link" href="/vote">Voter</a></li>
+                <li class="navbar__menu__li"><a class="navbar__menu__link" href="/shop/register">Boutique</a></li>
                 <li class="navbar__menu__li"><a class="navbar__menu__link" href="/forum">Forum</a></li>
             </ul>
         </div>
@@ -28,6 +29,7 @@ use App\App;
     <?= $yield; ?>
 </div>
 
+<script src="//api.dedipass.com/v1/pay.js"></script>
 <script type="text/javascript" src="/root/js/app.js"></script>
 </body>
 </html>
