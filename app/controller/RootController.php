@@ -27,7 +27,7 @@ class RootController extends Controller {
     public function show(){
         $this->init();
         $this->load(self::class, [
-            'posts' => $this->model->getPosts(5),
+            'posts' => $this->model->getPosts(3),
             'best-votes' => $this->model->getBestVotes(5)
         ]);
     }

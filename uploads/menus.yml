@@ -1,0 +1,266 @@
+menus:
+  grades:
+    Noble:
+      avantages:
+        Freebuild: "§a- /repair pour réparer l'item en main||§a[toutes 24 heures]||§a- /enderchest permettant d'ouvrir un enderchest||§a- /hat permettant de mettre sur sa tête l'item||§atenu en main||§a- /feed permettant de remplir sa barre de nourriture||§a- Accès à 15 Homes||§a- /craft pour ouvrir une table de craft||§a- /mc pour activer un tapis volant||§a- /mc tools pour activer des outils sur sa MC||§a- /mc light pour mettre une lampe sur sa MC||§a- /dis pig pour se déguiser en cochon||§a- /ptime <day/night> permettant de||§achanger l'heure pour soi||§a- Accès à la lave et au briquet|| ||§a§lKit Noble [toutes les 24h] :||§aEpée T2 U2, pioche et hache E2 U2,||§aarmure P2 U2 et livre Looting 2"
+        Créatif: "§a- Accès à 2 terrains||§a- Possibilité d'écrire en couleurs sur les panneaux"
+        Skyblock: "§a- Accès au Nether||§a- 1500 capsules chaque jours||§a- Team de 5 sur son île (au lieu de 3)||§a- Accès à 2 homes"
+        Globaux: ""
+      prix: '500'
+      item: golden chestplate
+    Seigneur:
+      avantages:
+        Freebuild: "§a- Accès au /repairall permettant de réparer tous||§ales items de son inventaire [toutes les 24 heures]||§a- Accès à la lave||§a- Accès à 20 homes supplémentaires, total de 35||§a- Accès au /dis cow permettant de||§ase déguiser en vache||§a- Accès au /dis pig permettant de||§ase déguiser en cochon||§a- Accès au /heal permettant de se soigner||§a[toutes les 5 minutes]|| ||§a§lKit Seigneur [toutes les 24h] :||§aEpée T3 U3, pioche et hache E3 U3,||§aarmure P3 U3 et livre Luck of The sea 3"
+        Créatif: "§a- Accès à 4 terrains"
+        Skyblock: "§a- Accès à la zone de Farming||§a- 2000 capsules chaque jours||§a- Team de 7 sur son île (au lieu de 3)||§a- Accès à 4 homes"
+        Globaux: ""
+      prix: '1000'
+      promo: '50'
+      item: iron chestplate
+      prec_grade: Noble
+    Prince:
+      avantages:
+        Freebuild: "§a- Accès au /dis sheep||§a<couleur> permettant de se déguiser en mouton||§a- Accès au /fly permettant de voler||§a- Accès au /pweather permettant de changer le temps pour soi||§a- Accès à 20 homes supplémentaires, total de 55||§a- Accès à la TNT||§a- Accès au /back après la mort|| ||§a§lKit Prince [toutes les 24h] :||§aEpée T4 U3, pioche et hache E4 U3,||§aarmure P4 U3 et livre Mending"
+        Créatif: "§a- Accès au worldedit||§a- Possibilité de fusionner des terrains||§aqui sont côtes à côtes avec /p merge"
+        Skyblock: "§a- Accès à l'ender||§a- 3000 capsules chaque jours||§a- Team de 10 sur son île (au lieu de 3)||§a- Accès à 6 homes"
+        Globaux: ""
+      prix: '1500'
+      item: diamond chestplate
+      prec_grade: Seigneur
+  Freebuild:
+    offers:
+      god:
+        id_affichage: diamond helmet
+        id_slot: 13
+        nom: "§b§lAccès au /god"
+        lore: "§aVous devenez invincible||§aen utilisant la commande §b§l/god§b !"
+        prix: '1000'
+        commandes: perm:essentials.god
+        one_buy: true
+        need_id: 'none'
+      pack_dis:
+        id_affichage: head:MHF_sheep
+        id_slot: 12
+        nom: "§b§lAccès au Pack Disguise"
+        lore: "§aVous pouvez vous déguiser en :|| §a- Cochon [sellé]||§a- Cheval||§a- Mule||§a- Ane||§a- Loup||§a- Araignée||§a- Poulet||§a- Vache||§a- Chat||§a- Zombie||§aavec la commande §b§l/dis"
+        prix: '250'
+        commandes: perm:iDisguise.mob.pig\\perm:iDisguise.mob.horse\\perm:iDisguise.mob.horse.variant.donkey\\perm:iDisguise.mob.pig.saddled\\perm:iDisguise.mob.wolf\\perm:iDisguise.mob.spider\\perm:iDisguise.mob.chicken\\perm:iDisguise.mob.cow\\perm:iDisguise.mob.ocelot\\perm:iDisguise.mob.zombie\\perm:iDisguise.mob.wolf.collar.*\\perm:iDisguise.mob.ocelot.type.*\\perm:iDisguise.mob.horse.variant.mule\\perm:iDisguise.mob.horse.variant.normal
+        one_buy: true
+        need_id: 'none'
+      tpmob:
+        id_affichage: ender pearl
+        id_slot: 14
+        nom: "§b§lAccès au TPMob"
+        lore: "§aTéléportez vos Mobs||§aavec la commande §b§l/tpmob§a,||§afaites clic droit sur le mob,||§aet §b§l/tpmob here"
+        prix: '500'
+        commandes: perm:tpmob.*
+        one_buy: true
+        need_id: 'none'
+      silkspawner:
+        id_affichage: mob spawner
+        id_slot: 21
+        nom: "§b§lAccès au Silk Spawner"
+        lore: "§aVous pouvez ramasser des Spawners||§aen les minant avec une pioche||§aqui a l'enchantement Toucher de Soie"
+        prix: '500'
+        commandes: perm:break.spawner
+        one_buy: true
+        need_id: 'none'
+      15_more_homes:
+        id_affichage: 15 gray carpets
+        id_slot: 22
+        nom: "§b§l15 Homes supplémentaires §c§l➥ Bientôt"
+        lore: "§a§m15 Homes supplémentaires"
+        prix: '10000'
+        commandes: perm:essentials.sethome.multiple.boutique15
+        one_buy: true
+      25_more_homes:
+        id_affichage: 25 gray carpets
+        id_slot: 23
+        nom: "§b§l25 Homes supplémentaires §c§l➥ Bientôt"
+        lore: "§a§m15 Homes supplémentaires"
+        prix: '10000'
+        commandes: perm:essentials.sethome.multiple.boutique25
+        one_buy: true
+      booster_3_1:
+        id_affichage: 3 diamond pickaxe
+        id_slot: 30
+        nom: "§b§lBooster x3 - 1 heure"
+        lore: "§aVous récupérez 3x plus de minerais||§aen minant pendant une heure,||§ales autres joueurs aussi et vous gagnez||§ades diamonds lorsqu'ils vous remercient"
+        prix: '250'
+        commandes: giveboost @p 1 3
+        one_buy: false
+      booster_3_2:
+        id_affichage: 3 diamond pickaxe
+        id_slot: 31
+        nom: "§b§lBooster x3 - 2 heures"
+        lore: "§aVous récupérez 3x plus de minerais||§aen minant pendant deux heures,||§ales autres joueurs aussi et vous gagnez||§ades diamonds lorsqu'ils vous remercient"
+        prix: '450'
+        commandes: giveboost @p 2 3
+        one_buy: false
+      booster_5_1:
+        id_affichage: 5 diamond pickaxe
+        id_slot: 32
+        nom: "§b§lBooster x5 - 1 heure"
+        lore: "§aVous récupérez 5x plus de minerais||§aen minant pendant une heure,||§ales autres joueurs aussi et vous gagnez||§ades diamonds lorsqu'ils vous remercient"
+        prix: '750'
+        commandes: giveboost @p 1 5
+        one_buy: false
+  Creatif:
+    offers:
+      1_more_plots:
+        id_affichage: grass
+        id_slot: 20
+        nom: "§b§l1 Plot supplémentaire"
+        lore: "§aAccès à 1 Terrain supplémentaire"
+        prix: '150'
+        commandes: perm:plots.plot.2
+        one_buy: false
+        need_id: 'none'
+      2_more_plots:
+        id_affichage: 2 grass
+        id_slot: 21
+        nom: "§b§l2 Plots supplémentaires"
+        lore: "§aAccès à 2 Terrains supplémentaires"
+        prix: '250'
+        commandes: perm:plots.plot.3
+        one_buy: false
+        need_id: 'none'
+      4_more_plots:
+        id_affichage: 4 grass
+        id_slot: 22
+        nom: "§b§l4 Plots supplémentaires"
+        lore: "§aAccès à 4 Terrains supplémentaires"
+        prix: '400'
+        commandes: perm:plots.plot.5
+        one_buy: false
+        need_id: 'none'
+      worldedit:
+        id_affichage: wooden_axe
+        id_slot: 23
+        nom: "§b§lAccès au World Edit"
+        lore: "§aAccès à §b§ltout §aWorldEdit||§asur votre terrain !"
+        prix: '500'
+        commandes: perm:worldedit.*\\perm:fawe.plotsquared
+        one_buy: true
+        need_id: 'none'
+      fusion:
+        id_affichage: diamond_block
+        id_slot: 24
+        nom: "§b§lAccès à la fusion de terrains"
+        lore: "§aFusionnez des terrains qui||§aqui sont côtes à côtes||§aavec §b§l/plot merge"
+        prix: '350'
+        commandes: perm:plots.admin.command.merge
+        one_buy: true
+        need_id: 'none'
+  Skyblock:
+    offers:
+      10000:
+        id_affichage: 1 emerald
+        id_slot: 20
+        nom: "§b§l10 000 Capsules"
+        lore: ""
+        prix: '250'
+        commandes: money give @p 10000
+        one_buy: false
+        need_id: 'none'
+      30000:
+        id_affichage: 3 emerald
+        id_slot: 21
+        nom: "§b§l30 000 Capsules"
+        lore: ""
+        prix: '500'
+        commandes: money give @p 30000
+        one_buy: false
+        need_id: 'none'
+      50000:
+        id_affichage: 5 emerald
+        id_slot: 22
+        nom: "§b§l50 000 Capsules"
+        lore: ""
+        prix: '1000'
+        commandes: money give @p 50000
+        one_buy: false
+        need_id: 'none'
+      100000:
+        id_affichage: 10 emerald
+        id_slot: 23
+        nom: "§b§l100 000 Capsules"
+        lore: ""
+        prix: '2000'
+        commandes: money give @p 100000
+        one_buy: false
+        need_id: 'none'
+      200000:
+        id_affichage: 20 emerald
+        id_slot: 24
+        nom: "§b§l200 000 Capsules"
+        lore: ""
+        prix: '3000'
+        commandes: money give @p 200000
+        one_buy: false
+        need_id: 'none'
+  All:
+    offers:
+      1_key:
+        id_affichage: 1 tripwire hook
+        id_slot: 20
+        nom: "§b§l1 Clé de vote"
+        lore: ""
+        prix: '10'
+        commandes: gvkey @p 1
+        one_buy: false
+        need_id: 'none'
+      5_keys:
+        id_affichage: 5 tripwire hook
+        id_slot: 21
+        nom: "§b§l5 Clés de vote"
+        lore: ""
+        prix: '50'
+        commandes: gvkey @p 5
+        one_buy: false
+        need_id: 'none'          
+      10_keys:
+        id_affichage: 10 tripwire hook
+        id_slot: 22
+        nom: "§b§l10 Clés de vote"
+        lore: ""
+        prix: '90'
+        commandes: gvkey @p 10
+        one_buy: false
+        need_id: 'none'
+      20_keys:
+        id_affichage: 20 tripwire hook
+        id_slot: 23
+        nom: "§b§l20 Clés de vote"
+        lore: ""
+        prix: '180'
+        commandes: gvkey @p 20
+        one_buy: false
+        need_id: 'none'
+      30_keys:
+        id_affichage: 30 tripwire hook
+        id_slot: 24
+        nom: "§b§l30 Clés de vote"
+        lore: ""
+        prix: '270'
+        commandes: gvkey @p 30
+        one_buy: false
+        need_id: 'none'
+      nick:
+        id_affichage: 421
+        id_slot: 19
+        nom: "§b§lUn surnom"
+        lore: "§aRenommez-vous sur tout nos serveurs !||  ||§c§lUne seule utilisation !"
+        prix: '250'
+        commandes: achetenickname @p
+        one_buy: false
+        need_id: 'none' 
+      anti_afk:
+        id_affichage: 347
+        id_slot: 25
+        nom: "§b§lAnti Kick"
+        lore: "§aEn achetant cela, vous ne serez||§aplus kick lorsque vous êtes AFK,||§apratique pour les usines !"
+        prix: '500'
+        commandes: perm:essentials.afk.kickexempt
+        one_buy: true
+        need_id: 'none'        

@@ -1,0 +1,248 @@
+script options:
+	$ init com.mysql.jdbc.Driver
+	$ db url jdbc:mysql://188.165.248.215:3306/craftashop
+	$ db username root
+	$ db password cp8N6HV4q6
+
+
+on load:
+# RÉCUPÉRATION DU FICHIER DES RÉCOMPENSES GÉNERAL (MÊME SUR TOUS LES SERVEURS) SUR LE SITE (http://nobordercraft.fr/uploads/recompenses.yml)
+	download from "http://nobordercraft.fr/uploads/recompenses.yml" to "plugins/VoteKey/recompenses.yml"
+	set {_servers::*} to configuration section "servers" get of "plugins/VoteKey/recompenses.yml"
+	loop {_servers::*}:
+		delete {id_aff.%loop-value%.izyvote::*}
+		delete {name.%loop-value%.izyvote::*}
+		delete {chance.%loop-value%.izyvote::*}
+		delete {commandes.%loop-value%.izyvote::*}
+		set {_ids.server::*} to configuration section "servers.%loop-value%.recompenses" get of "plugins/VoteKey/recompenses.yml"
+		loop {_ids.server::*}:
+			set {id_aff.%loop-value-1%.izyvote::%loop-value-2%} to single value "servers.%loop-value-1%.recompenses.%loop-value-2%.id_affichage" get of "plugins/VoteKey/recompenses.yml"
+			set {name.%loop-value-1%.izyvote::%loop-value-2%} to single value "servers.%loop-value-1%.recompenses.%loop-value-2%.name" get of "plugins/VoteKey/recompenses.yml"
+			set {chance.%loop-value-1%.izyvote::%loop-value-2%} to single value "servers.%loop-value-1%.recompenses.%loop-value-2%.chance" get of "plugins/VoteKey/recompenses.yml"
+			set {commandes.%loop-value-1%.izyvote::%loop-value-2%} to single value "servers.%loop-value-1%.recompenses.%loop-value-2%.commandes" get of "plugins/VoteKey/recompenses.yml"
+
+
+command /vote [<text>] [<text>]:
+	usage: /vote
+	trigger:
+		set {_players_key} to the first element out of objects in column "nomb_cles" from result of query "SELECT nomb_cles FROM vote_players_keys WHERE pseudo = '%player%' ;" and close
+		set {_players_key} to {_players_key} parsed as integer
+		wait 3 ticks
+		if arg 1 is set:
+#		OUVERTURE D'UNE CLÉ
+			if arg 1 is "LeMotDePasseMNB":
+#			LANCEMENT DU ROULEMENT DE TAMBOUR AVEC LES ITEMS DU SERVEUR CHOISI
+				if arg 2 is set:
+#				MISE EN PLACE DES VITRES
+					open chest with 5 rows named "Ouverture clé de vote" to player
+					wait 3 ticks
+					loop 9 times:
+						format slot (-1 + loop-number) of player with light green glass pane to close
+						format slot (35 + loop-number) of player with light green glass pane to close
+					loop 3 times:
+						format slot (8 + 9 * loop-number) of player with light green glass pane to close
+						format slot (0 + 9 * loop-number) of player with light green glass pane to close
+					format slot 13 of player with ladder to close
+					format slot 31 of player with ladder to close
+					wait 5 ticks
+#				MISE EN PLACE DES 7 PREMIERS ITEMS AFFICHÉS
+					loop 7 times:
+						while {_item_cmd::%loop-number%} is not set:
+							set {_rand} to a random integer between 1 and (size of {id_aff.%arg 2%.izyvote::*})
+							set {_chance} to {chance.%arg 2%.izyvote::%{_rand}%} parsed as number
+#						PROBABILITÉ QUE CE SOIT CELUI-CI
+							chance of {_chance}%:
+								set {_item_id::%loop-number%} to {id_aff.%arg 2%.izyvote::%{_rand}%}
+								set {_item_cmd::%loop-number%} to {commandes.%arg 2%.izyvote::%{_rand}%}
+								while "%{_item_cmd::%loop-number%}%" is "%{_item_cmd::%loop-number - 1%}%":
+									set {_rand} to a random integer between 1 and (size of {id_aff.%arg 2%.izyvote::*})
+									set {_chance} to {chance.%arg 2%.izyvote::%{_rand}%} parsed as number
+									chance of {_chance}%:
+										set {_item_id::%loop-number%} to {id_aff.%arg 2%.izyvote::%{_rand}%}
+										set {_item_cmd::%loop-number%} to {commandes.%arg 2%.izyvote::%{_rand}%}
+								if "%{_item_id::%loop-number%}%" isn't "<none>":
+									set {_item_name::%loop-number%} to {name.%arg 2%.izyvote::%{_rand}%}
+#								PROBABILITE ECRITE
+									if {_chance} > 15:
+										set {_item_prob::%loop-number%} to "&7Commun"
+									else if {_chance} > 7:
+										set {_item_prob::%loop-number%} to "&9Rare"
+									else if {_chance} > 1:
+										set {_item_prob::%loop-number%} to "&6Ultra Rare"
+									else:
+										set {_item_prob::%loop-number%} to "&6&k|&bLégendaire&6&k|"
+#								AFFICHAGE DES 7 ITEMS
+									if "%inventory name of player's current inventory%" is "Ouverture clé de vote":
+										if {_item_id::%loop-number%} contains "head:":
+											set {_p_head} to {_item_id::%loop-number%}
+											replace all "head:" in {_p_head} with ""
+											set {_p_head} to {_p_head} parsed as offlineplayer
+											format slot (18 + loop-number) of player with skull of {_p_head} named {_item_name::%loop-number%} with lore {_item_prob::%loop-number%} to close
+										else:
+											set {_item} to {_item_id::%loop-number%} parsed as item type
+											format slot (18 + loop-number) of player with {_item} named {_item_name::%loop-number%} with lore {_item_prob::%loop-number%} to close
+#				ROTATIONS DES ITEMS 20 FOIS (+ 1ER TOUR) MISE EN PLACE DU NOUVEAU RANDOM (LE 7E)
+					loop 20 times:
+#					SI LE JOUEUR N'EST PLUS DANS L'INVENTAIRE D'OUVERTURE DE CLE VOTE TERMINER INSTANTANEMENT
+						if "%inventory name of player's current inventory%" is "Ouverture clé de vote":
+							if loop-number < 10:
+								wait 0.2 second
+							else:
+								set {_wtime} to "%(0.3 + 0.03 * (loop-number - 9))% seconds" parsed as timespan
+								wait {_wtime}
+#					MISE EN PLACE DU NOUVEL ITEM QUI S'AFFICHE TOUT DROITE (RANDOM ET DIFF DU PRÉCÉDENT) EN TESTANT SA PROBABILITE
+						set {_next_item} to size of {_item_id::*} + 1
+						while {_item_cmd::%{_next_item}%} is not set:
+							set {_rand} to a random integer between 1 and (size of {id_aff.%arg 2%.izyvote::*})
+							set {_chance} to {chance.%arg 2%.izyvote::%{_rand}%} parsed as number
+							set {_prec_item} to size of {_item_id::*}
+							chance of {_chance}%:
+								set {_item_id::%{_next_item}%} to {id_aff.%arg 2%.izyvote::%{_rand}%}
+								set {_item_cmd::%{_next_item}%} to {commandes.%arg 2%.izyvote::%{_rand}%}
+#							VÉRIFICATION QU'IL EST DIFF DU PRÉCÉDENT
+								while "%{_item_cmd::%{_next_item}%}%" is "%{_item_cmd::%{_prec_item}%}%":
+									set {_rand} to a random integer between 1 and (size of {id_aff.%arg 2%.izyvote::*})
+									set {_chance} to {chance.%arg 2%.izyvote::%{_rand}%} parsed as number
+									chance of {_chance}%:
+										set {_item_id::%{_next_item}%} to {id_aff.%arg 2%.izyvote::%{_rand}%}
+										set {_item_cmd::%{_next_item}%} to {commandes.%arg 2%.izyvote::%{_rand}%}
+						set {_item_name::%{_next_item}%} to {name.%arg 2%.izyvote::%{_rand}%}
+#					PROBABILITE ECRITE
+						if {_chance} > 15:
+							set {_item_prob::%{_next_item}%} to "&7Commun"
+						else if {_chance} > 7:
+							set {_item_prob::%{_next_item}%} to "&9Rare"
+						else if {_chance} > 1:
+							set {_item_prob::%{_next_item}%} to "&6Ultra Rare"
+						else:
+							set {_item_prob::%{_next_item}%} to "&6&k|&bLégendaire&6&k|"
+#					DÉPLACEMENT DES ITEMS VERS LA GAUCHE EN AJOUTANT LE NOUVEAU À DROITE
+						loop 7 times:
+							set {_index_item} to (loop-number-1 + loop-number-2)
+							if "%inventory name of player's current inventory%" is "Ouverture clé de vote":
+								if {_item_id::%{_index_item}%} contains "head:":
+									set {_p_head} to {_item_id::%{_index_item}%}
+									replace all "head:" in {_p_head} with ""
+									set {_p_head} to {_p_head} parsed as offlineplayer
+									format slot (18 + loop-number-2) of player with skull of {_p_head} named {_item_name::%{_index_item}%} with lore {_item_prob::%{_index_item}%} to close
+								else:
+									set {_item} to {_item_id::%{_index_item}%} parsed as item type
+									format slot (18 + loop-number-2) of player with {_item} named {_item_name::%{_index_item}%} with lore {_item_prob::%{_index_item}%} to close
+						if "%inventory name of player's current inventory%" is "Ouverture clé de vote":
+							play "BLOCK_LEVER_CLICK" to player at volume 1
+#				DON DE L'ITEM GAGNÉ
+					set {_winned_item} to size of {_item_id::*} - 3
+					send "&aVous avez gagné: &l%{_item_name::%{_winned_item}%}%&a (%{_item_prob::%{_winned_item}%}%&a) pour le serveur %arg 2%. Merci !"
+					if {_item_prob::%{_next_item}%} == "&7Commun":
+						make console execute "isc all broadcast &l%player% &aa voté pour le serveur et a gagné: &l%{_item_name::%{_winned_item}%}%&a (%{_item_prob::%{_winned_item}%}%&a) sur le serveur %arg 2%. Faites /vote pour voter !"
+					log " %player%  -  %{_item_id::%{_winned_item}%}%  -  %{_item_name::%{_winned_item}%}%  -  %{_item_prob::%{_winned_item}%}%  -  %{_item_cmd::%{_winned_item}%}%  =  %arg 2%" to "recompenses_votes.log"
+					set {_cmd} to {_item_cmd::%{_winned_item}%}
+					if {_cmd} contains "iris:":
+						replace all "iris:" in {_cmd} with ""
+						set {_add_iris} to {_cmd} parsed as integer
+						update "UPDATE cshop_users SET user_money = user_money + %{_add_iris}% WHERE user_login = '%player%' ;"
+					else if arg 2 is "%server's name%":
+						replace all "@p" in {_cmd} with "%player%"
+						make console execute "%{_cmd}%"
+					else:
+						replace all "@p" in {_cmd} with "%player%"
+						make console execute "isc %arg 2% recompgive %player% %{_cmd}%"
+					if "%inventory name of player's current inventory%" is "Ouverture clé de vote":
+						loop 3 times:
+							format slot (18 + loop-number) of player with air to close
+							format slot (22 + loop-number) of player with air to close
+					update "UPDATE vote_players_keys SET nomb_cles = (nomb_cles - 1) WHERE pseudo = '%player%' ;"
+#			OUVERTURE DU GUI DE CHOIX DU SERVEUR
+				else:
+					open chest with 1 row named "Choix du serveur" to player
+					format slot 2 of player with diamond pickaxe named "&a&l> &a&lRecevoir la récompense" with lore "&asur le Freebuild" to close then run [make player execute "vote %arg 1% Freebuild"]
+					format slot 4 of player with lava bucket named "&a&l> &a&lRecevoir la récompense" with lore "&asur le Skyblock" to close then run [make player execute "vote %arg 1% Skyblock"]
+					format slot 6 of player with gold block named "&a&l> &a&lRecevoir la récompense" with lore "&asur le Créatif" to close then run [make player execute "vote %arg 1% Creatif"]
+			else:
+				make player execute "vote"
+		else:
+# AFFICHAGE DES 27 PREMIÈRES CLÉS
+			if "%{_players_key}%" is "<none>":
+				set {_players_key} to 0
+			open chest with 5 rows named "Clés de vote (%{_players_key}%)" to player
+			format slot 4 of player with book named "&bCliquez pour voter" with lore "&fLes clés de vote sont des objets||&fque l'on gagne lorsque l'on vote||&fpour le serveur, elles permettent||&fde gagner des récompenses sur||&fnos différents serveurs" to close then run [send "Clique -> http://nobordercraft.fr/vote"]
+			if {_players_key} is 0:
+				format slot 22 of player with red wool named "&bVous n'avez aucune clé de vote" with lore "&fPour en obtenir et gagner des||&frécompenses cliquez sur le livre||&fau dessus et votez sur les||&fdifférents sites" to close
+			else:
+				if {_players_key} <= 27:
+					loop {_players_key} times:
+						format slot (17 + loop-number) of player with tripwire hook named "&fOuvrir la clé de vote" to close then run [make player execute "vote LeMotDePasseMNB"]
+				else:
+					loop 27 times:
+						format slot (17 + loop-number) of player with tripwire hook named "&fOuvrir la clé de vote" to close then run [make player execute "vote LeMotDePasseMNB"]
+
+
+# POUVOIR VÉRIFIER SI L'id_affichage DE LA RÉCOMPENSE QUE L'ON AJOUTE EST VALIDE POUR SKRIPT
+command /tryitem [<text>]:
+	permission: votekey.tryitem
+	permission message: &cVous ne pouvez pas faire cela
+	trigger:
+		if arg 1 is set:
+			if arg 1 doesn't contain "head:":
+				set {_test_item} to arg 1 parsed as item type
+				if "%{_test_item}%" is "<none>":
+					send "&cItem invalide: %arg 1%"
+				else:
+					send "&aItem valide"
+			else:
+				send "&aItem valide"
+		else:
+			send "&cVous devez choisir un item à tester: /tryitem <test>"
+
+
+# DONNER UNE CLÉ DE VOTE À UN JOUEUR (SUR LA BDD)
+command /givevotekey [<offlineplayer>] [<integer=1>]:
+	aliases: /gvkey
+	permission: votekey.givevotekey
+	permission message: &cVous ne pouvez pas faire cela
+	trigger:
+		if arg 1 is set:
+			update "INSERT INTO vote_players_keys (pseudo, nomb_cles, last_cle_date) VALUES ('%arg 1%', %arg 2%, NOW()) ON DUPLICATE KEY UPDATE nomb_cles = (nomb_cles + %arg 2%), last_cle_date = NOW() ;"
+			send "&a%arg 2% clé de vote a bien été données à &l%arg 1%"
+		else:
+			send "&cVous devez choisir un joueur à qui donner la clé de vote: /gvkey <joueur> [nombre de clés]"
+
+
+# DONNE UN RECOMPENSE AU JOUEUR, S'IL EST HORS LIGNE ELLE LUI SERA REMISE A SA PROCHAINE CONNEXION
+command /recompgive [<offlineplayer>] [<text>]:
+	aliases: /recg
+	permission: votekey.recompensegive
+	permission message: &cVous ne pouvez pas faire cela
+	trigger:
+		if arg 1 is online:
+			make console execute "%arg 2%"
+		else:
+			add arg 2 to {recompenses.izyvote.%arg 1%::*}
+
+
+on join:
+	set {_players_key} to the first element out of objects in column "nomb_cles" from result of query "SELECT nomb_cles FROM vote_players_keys WHERE pseudo = '%player%' ;" and close
+	set {_players_key} to {_players_key} parsed as integer
+	if {recompenses.izyvote.%player%::*} is set:
+		loop {recompenses.izyvote.%player%::*}:
+			make console execute "%loop-value%"
+			send "&AVous avez récupéré une récompense de clé de vote en attente !"
+		delete {recompenses.izyvote.%player%::*}
+	if {_players_key} >= 0:
+		send "&aVous avez &l%{_players_key}% &aclé(s) de vote en attente ! Ouvrez les pour gagner une récompense en faisant la commande &l&r/vote &aet ensuite en cliquant sur les clés en bas !"
+	
+	
+# DONNER SA CLÉ DE VOTE À UN JOUEUR (SUR LA BDD)
+command /key [<offlineplayer>]:
+	trigger:
+		if arg 1 is set:
+			set {_players_key} to the first element out of objects in column "nomb_cles" from result of query "SELECT nomb_cles FROM vote_players_keys WHERE pseudo = '%player%' ;" and close
+			set {_players_key} to {_players_key} parsed as integer
+			if {_players_key} > 0:
+				update "UPDATE vote_players_keys SET nomb_cles = (nomb_cles - 1) WHERE pseudo = '%player%' ;"
+				update "INSERT INTO vote_players_keys (pseudo, nomb_cles, last_cle_date) VALUES ('%arg 1%', 1, NOW()) ON DUPLICATE KEY UPDATE nomb_cles = (nomb_cles + 1), last_cle_date = NOW() ;"
+				send "&aVotre clé de vote a bien été donnée à &l%arg 1%"
+			else:
+				send "&cVous n'avez pas de clé de vote !"
+		else:
+			send "&cVous devez choisir un joueur à qui donner votre clé de vote: /key <joueur>"

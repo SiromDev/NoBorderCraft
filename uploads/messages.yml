@@ -1,0 +1,54 @@
+*hub:
+	- &bLe grade Prince à vie est disponible avec &b&l/vip &b!
+	- &bContactez nous sur le forum: &b&l/forum
+    - &bPour accéder aux autres serveurs faites &b&b&l/server &b!
+	- &bVisitez notre site web: http://nobordercraft.fr&b&l/
+	- &bVenez discuter sur notre TeamSpeak ! &b&l/ts
+	- &bPour obtenir votre grade sur TS, faites &b&b&l/link &b!
+	- &bSupportez le serveur en votant avec &b&l/vote &b!
+    - &bPour retourner au Hub faites &b&l/hub &b!
+    - &bLa nouvelle boutique est là ! &b&l/vip
+    - &bLe recrutement d'Animateurs est ouvert ! &b&l/forum
+*Freebuild:
+	- &bLe grade Prince à vie est disponible avec &b&l/vip &b!
+	- &bDes boutiques sont disponibles au &b&l/market
+	- &bContactez nous sur le forum: &b&l/forum
+	- &bVisitez notre site web: http://nobordercraft.fr&b&l/
+	- &bVenez discuter sur notre TeamSpeak ! &b&l/ts
+    - &bPour accéder aux autres serveurs faites &b&b&l/server &b!
+	- &bSi vous voulez un claim, il suffit de demander à un membre du Staff !
+	- &bLe Nether, l'Ender et la Map Minage sont reset tous les Vendredis !
+	- &bPour obtenir votre grade sur TS, vous avez juste à faire &b&l/link &b!
+	- &bSi vous avez besoin d'aide faites &b&l/staff <message> &b!
+	- &bLa dynmap est accessible via &b&l/dynmap &b!
+	- &bAchetez des Booster sur notre Boutique !
+	- &bSupportez le serveur en votant avec &b&l/vote &b!
+    - &bLa nouvelle boutique est là ! &b&l/vip
+    - &bPour retourner au Hub faites &b&l/hub &b!
+    - &bLe recrutement d'Animateurs est ouvert ! &b&l/forum
+*Skyblock:
+	- &bLe grade Prince à vie est disponible avec &b&l/vip &b!
+	- &bContactez nous sur le forum: &b&l/forum
+	- &bVisitez notre site web: http://nobordercraft.fr&b&l/
+	- &bVenez discuter sur notre TeamSpeak ! &b&l/ts
+    - &bPour accéder aux autres serveurs faites &b&b&l/server &b!
+	- &bPour obtenir votre grade sur TS, vous avez juste à faire &b&l/link &b!
+	- &bSupportez le serveur en votant avec &b&l/vote !
+	- &bBesoin d'aide ? Faites &b&l/wiki !
+	- &bToutes les commandes concernant les Iles sont accessibles avec &b&l/menu &b!
+	- &bAchetez et vendez des items avec l'HDV ! &b&b&l/hdv help
+    - &bPour retourner au Hub faites &b&l/hub &b!
+    - &bLa nouvelle boutique est là ! &b&l/vip
+    - &bLe recrutement d'Animateurs est ouvert ! &b&l/forum
+*Creatif:
+	- &bLe grade Prince à vie est disponible avec &b&l/vip &b!
+	- &bContactez nous sur le forum: &b&l/forum
+	- &bVisitez notre site web: http://nobordercraft.fr&b&l/
+	- &bVenez discuter sur notre TeamSpeak ! &b&l/ts
+	- &bPour obtenir votre grade sur TS, vous avez juste à faire &b&l/link &b!
+	- &bSupportez le serveur en votant avec &b&l/vote !
+    - &bPour accéder aux autres serveurs faites &b&b&l/server &b!
+	- &bToutes les commandes concernant les terrains sont accessibles avec &b&l/menu &b!
+    - &bPour retourner au Hub faites &b&l/hub &b!
+    - &bLe recrutement d'Animateurs est ouvert ! &b&l/forum 
+    - JSON:%player%;;&b&lClique ici pour être téléporté au Tuto !||ttp:&b&lClique !||cmd:/tuto

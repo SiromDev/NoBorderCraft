@@ -1,16 +1,20 @@
 <div class="container">
 
-    <br>
-
     <div class="row">
-        <div class="col-xs-12">
-            <form class="form" action="" method="post">
-                <div class="form-group">
-                    <label for="pseudo" class="form-label">Pseudo Minecraft</label>
-                    <input class="form-control" type="text" id="pseudo" name="pseudo">
+        <div class="col-sm-12">
+            <section class="sidebar">
+                <h3 class="sidebar__title">Pseudo Minecraft</h3>
+                <div class="sidebar__content">
+                    <form class="form" action="" method="post" autocomplete="off">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="pseudo" name="pseudo" placeholder="Pseudo">
+                        </div>
+                        <button type="submit" class="btn btn-success">Acheter des iris</button>
+                    </form>
                 </div>
-                <button type="submit" class="btn btn-success">Acheter des iris</button>
-            </form>
+            </section>
+
         </div>
     </div>
+
 </div>

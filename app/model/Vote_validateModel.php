@@ -82,10 +82,9 @@ class Vote_validateModel extends Model {
         if (!$this->isAlradyVoted(3)) {
             $api_adress = "http://www.serveursminecraft.org/sm_api/peutVoter.php?id=1221&ip=$ip";
             $api_result = file_get_contents($api_adress);
-            if($api_result < "0") return false;
-            return true;
+            if($api_result != "true") return true;
         }
-        return true;
+        return false;
     }
 
     /**
@@ -105,6 +104,7 @@ class Vote_validateModel extends Model {
         $vote = App::getDatabase()->prepare("SELECT votes FROM players WHERE pseudo = ?", [htmlspecialchars($_SESSION['pseudo'])], true);
         if ($linkN != 3) {
             if ($vote != null) App::getDatabase()->prepare("UPDATE players SET votes = ? WHERE pseudo = ?", [$vote->votes + $number, $_SESSION['pseudo']]);
+            if ($vote != null) App::getDatabase()->prepare("UPDATE players SET Cle = ? WHERE pseudo = ?", [$number, $_SESSION['pseudo']]);
         }
         $_SESSION['votted']["votted_{$linkN}"] = "Votted";
     }

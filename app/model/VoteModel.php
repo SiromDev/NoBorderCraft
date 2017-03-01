@@ -26,8 +26,8 @@ class VoteModel extends Model {
     /**
      * @return \PDOStatement Best votes
      */
-    public function getBestVotes(){
-        if ($this->best == null) $this->best = App::getDatabase()->query("SELECT * FROM players ORDER BY votes DESC LIMIT 20", false);
+    public function getBestVotes($number){
+        if ($this->best == null) $this->best = App::getDatabase()->query("SELECT * FROM players ORDER BY votes DESC LIMIT {$number}", false);
         return $this->best;
     }
 

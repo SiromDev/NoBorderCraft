@@ -36,13 +36,15 @@ $router->get('shop/success-:number', function ($number){
     <div class="container">
         <div class="row">
             <br>
-            <h1>Félisitation vous venez d'acheter: <span class="text-bold"><?= $number ?></span> Iris.</h1>
+            <h1>Merci à vous ! Vous avez été crédité(e) de : <span class="text-bold"><?= $number ?></span> Iris.</h1>
         </div>
     </div>
 <?php
 });
 $router->get('shop/dedipass-:number', 'Shop_alopass#show');
+$router->get('shop/cb-:number', 'Shop_cb#show');
 $router->post('shop/validate/dedipass-:number', 'Vote_validate_alopass#validate');
+$router->post('shop/validate/cb-:number', 'Shop_validate_cb#validate');
 
 # Login
 $router->get('login', 'Login#show');
